@@ -1,0 +1,109 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #2e8555;
+  --ifm-color-primary-dark: #29784c;
+  --ifm-color-primary-darker: #277148;
+  --ifm-color-primary-darkest: #205d3b;
+  --ifm-color-primary-light: #33925d;
+  --ifm-color-primary-lighter: #359962;
+  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #25c2a0;
+  --ifm-color-primary-dark: #21af90;
+  --ifm-color-primary-darker: #1fa588;
+  --ifm-color-primary-darkest: #1a8870;
+  --ifm-color-primary-light: #29d5b0;
+  --ifm-color-primary-lighter: #32d8b4;
+  --ifm-color-primary-lightest: #4fddbf;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+/* Accessibility improvements */
+/* Ensure sufficient color contrast */
+:root {
+  --ifm-color-emphasis-0: #000000;
+  --ifm-color-emphasis-100: #1a1a1a;
+  --ifm-color-emphasis-200: #333333;
+  --ifm-color-emphasis-300: #4d4d4d;
+  --ifm-color-emphasis-400: #666666;
+  --ifm-color-emphasis-500: #7f7f7f;
+  --ifm-color-emphasis-600: #999999;
+  --ifm-color-emphasis-700: #b3b3b3;
+  --ifm-color-emphasis-800: #cccccc;
+  --ifm-color-emphasis-900: #e6e6e6;
+  --ifm-color-emphasis-1000: #ffffff;
+}
+
+/* Focus indicators for keyboard navigation */
+a:focus,
+button:focus,
+input:focus,
+select:focus,
+textarea:focus,
+details:focus,
+summary:focus {
+  outline: 2px solid var(--ifm-color-primary);
+  outline-offset: 2px;
+}
+
+/* Better focus visibility for interactive elements */
+button,
+a {
+  border-radius: 4px;
+}
+
+/* Ensure all content is properly spaced */
+main {
+  line-height: 1.6;
+}
+
+/* Improve readability for code blocks */
+code {
+  font-family: 'SFMono-Regular', Consolas, 'Roboto Mono', 'Droid Sans Mono', 'Liberation Mono', Menlo, Courier, monospace;
+}
+
+/* Better visual hierarchy for headings */
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 1.25rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Ensure images have appropriate alt text consideration */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Improve accessibility for visually hidden content */
+.visually-hidden {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
+}

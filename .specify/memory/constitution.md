@@ -1,55 +1,59 @@
-# [PROJECT_NAME] Constitution
-<!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
+<!--
+Sync Impact Report:
+Version change: N/A → 1.0.0
+Added sections: Vision, Success Criteria, Stakeholders, Brand Voice
+Removed sections: None
+Modified principles: None (new project)
+Templates requiring updates: N/A
+Follow-up TODOs: None
+-->
+# Physical AI Book Constitution
+
+## Vision
+
+To create an accessible, comprehensive guide that demystifies Physical AI for beginners and intermediate learners, providing hands-on experience with real-world applications of AI in physical systems, robotics, and embodied intelligence.
 
 ## Core Principles
 
-### [PRINCIPLE_1_NAME]
-<!-- Example: I. Library-First -->
-[PRINCIPLE_1_DESCRIPTION]
-<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
+### I. Hands-On Learning First
+All concepts must be grounded in practical, interactive examples that readers can implement themselves. Theory is only valuable when paired with tangible application. Every chapter includes executable code samples and suggested experiments that demonstrate Physical AI concepts in action.
 
-### [PRINCIPLE_2_NAME]
-<!-- Example: II. CLI Interface -->
-[PRINCIPLE_2_DESCRIPTION]
-<!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
+### II. Beginner-to-Intermediate Accessibility
+Content must be approachable for beginners while offering sufficient depth for intermediate learners. Complex topics are broken down into digestible concepts with clear prerequisites stated. Mathematical concepts are explained intuitively before formal notation is introduced.
 
-### [PRINCIPLE_3_NAME]
-<!-- Example: III. Test-First (NON-NEGOTIABLE) -->
-[PRINCIPLE_3_DESCRIPTION]
-<!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
+### III. Docusaurus Documentation Excellence
+All book content follows Docusaurus best practices for documentation. Content is structured with clear navigation, proper cross-linking, and responsive design. Code examples are syntax-highlighted and tested for accuracy. Accessibility standards are met to ensure broad usability.
 
-### [PRINCIPLE_4_NAME]
-<!-- Example: IV. Integration Testing -->
-[PRINCIPLE_4_DESCRIPTION]
-<!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
+### IV. Embodied Learning Approach
+Physical AI concepts are taught through examples that connect AI algorithms with physical systems. Every major concept includes real-world robotics or physical simulation examples that demonstrate how AI operates in embodied environments rather than purely digital ones.
 
-### [PRINCIPLE_5_NAME]
-<!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
-[PRINCIPLE_5_DESCRIPTION]
-<!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
+### V. Iterative Development (NON-NEGOTIABLE)
+Content development follows an iterative approach: Core concept → Simple example → Advanced application → Reader challenges. Each section is tested with target audience readers before publication to ensure comprehension and engagement.
 
-### [PRINCIPLE_6_NAME]
+### VI. Technology Integration Focus
+Focus areas requiring special attention: Integration between simulation and real-world robotics, Hardware abstraction layers, Performance considerations for real-time systems, Safety protocols for physical AI implementations.
 
+## Success Criteria
 
-[PRINCIPLE__DESCRIPTION]
+- 90% of beginner readers can successfully execute core code examples after reading
+- Content receives positive feedback from target audience in pre-publication testing
+- Book successfully guides readers from basic understanding to implementing simple Physical AI projects
+- Docusaurus implementation meets accessibility standards and loads quickly
+- All code examples are verified to run correctly in specified environments
 
-## [SECTION_2_NAME]
-<!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
+## Stakeholders
 
-[SECTION_2_CONTENT]
-<!-- Example: Technology stack requirements, compliance standards, deployment policies, etc. -->
+- Primary: Beginners and intermediate learners in Physical AI and robotics
+- Secondary: Educators teaching Physical AI courses, Researchers seeking practical implementations
+- Contributors: Technical writers, Subject matter experts, Beta readers from target audience
+- Maintainers: Development team responsible for content updates and technical infrastructure
 
-## [SECTION_3_NAME]
-<!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
+## Brand Voice
 
-[SECTION_3_CONTENT]
-<!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
+Authoritative yet approachable, encouraging experimentation and curiosity. The tone is supportive, recognizing that Physical AI can be challenging, while maintaining technical accuracy. We emphasize safety in physical AI implementations and promote responsible AI development practices.
 
 ## Governance
-<!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
 
-[GOVERNANCE_RULES]
-<!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
+This Constitution governs all development of the Physical AI book project. All content, code examples, and documentation must align with these principles. Amendments require explicit documentation of changes, approval from core maintainers, and a migration plan for existing content if needed. All pull requests and reviews must verify compliance with these principles before merging.
 
-**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
-<!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->
+**Version**: 1.0.0 | **Ratified**: 2025-01-08 | **Last Amended**: 2025-01-08
