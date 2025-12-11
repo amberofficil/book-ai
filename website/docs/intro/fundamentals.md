@@ -1,4 +1,6 @@
 ---
+id: fundamentals
+
 sidebar_position: 1
 next:
   - type: doc
