@@ -1,11 +1,12 @@
 ---
 id: fundamentals
-
+title: Physical AI Fundamentals
 sidebar_position: 1
 next:
   - type: doc
     id: intro/applications
 ---
+
 
 # Physical AI Fundamentals
 
