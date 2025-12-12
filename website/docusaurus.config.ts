@@ -104,7 +104,7 @@ const config: Config = {
           items: [
             {
               label: 'Introduction to Physical AI',
-              to: '/docs/intro/fundamentals',
+              to: '/intro/fundamentals',
             },
           ],
         },
