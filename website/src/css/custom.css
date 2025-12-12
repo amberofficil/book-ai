@@ -20,19 +20,13 @@
   /* Background color for the main content */
   --ifm-background-color: #f5f5f5; /* very light grey, soft on eyes */
 
-  /* Emphasis / Contrast Colors */
-  --ifm-color-emphasis-0: #000000;
-  --ifm-color-emphasis-100: #1a1a1a;
-  --ifm-color-emphasis-200: #333333;
-  --ifm-color-emphasis-300: #4d4d4d;
-  --ifm-color-emphasis-400: #666666;
-  --ifm-color-emphasis-500: #7f7f7f;
-  --ifm-color-emphasis-600: #999999;
-  --ifm-color-emphasis-700: #b3b3b3;
-  --ifm-color-emphasis-800: #cccccc;
-  --ifm-color-emphasis-900: #e6e6e6;
-  --ifm-color-emphasis-1000: #fdfdfd; /* very light grey for background so text is clear */
-}
+  /* Text color for readability */
+  --ifm-color-emphasis-1000: #111111; /* almost black, clear on light bg */
+  --ifm-color-emphasis-900: #333333;
+  --ifm-color-emphasis-800: #555555;
+     /* Highlighted code line background */
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.05);
+  }
 
 
 /* -------------------------
