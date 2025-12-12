@@ -25,9 +25,9 @@ This book is designed for:
 
 The book is organized into chapters that build upon each other. We recommend following the content sequentially if you're new to Physical AI:
 
-1. Start with the [Introduction to Physical AI](./intro/fundamentals.md) to understand the fundamentals
-2. Explore [Applications of Physical AI](./intro/applications.md) to see real-world implementations
-3. Learn about [Implementation Approaches](./intro/implementation.md) to understand how to develop Physical AI systems
+1. Start with the [Introduction to Physical AI](./intro/fundamentals) to understand the fundamentals
+2. Explore [Applications of Physical AI](./intro/applications) to see real-world implementations
+3. Learn about [Implementation Approaches](./intro/implementation) to understand how to develop Physical AI systems
 4. Follow the tutorials and reference materials for deeper learning
 
 ## Learning Approach
